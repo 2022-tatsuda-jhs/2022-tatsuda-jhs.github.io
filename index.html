@@ -1,38 +1,50 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>龍田中学校 同窓会公式サイト</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: #f8f7f4;
-      text-align: center;
-      color: #24344d;
-    }
-    header {
-      background: #172c4a;
-      color: white;
-      padding: 100px 20px;
-    }
-    h1 { font-size: 36px; }
-    .gold { color: #d9bd82; }
-    main { padding: 50px 20px; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#14243b" />
+  <meta name="description" content="龍田中学校2022年度卒業生 同窓会公式サイト。再会の日に向けた最新情報をお届けします。" />
+  <title>龍田中学校 2022年度卒業生 | 同窓会公式サイト</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <p class="gold">ALUMNI REUNION 2022</p>
-    <h1>また、あの場所で。</h1>
-    <p>懐かしい仲間と、特別なひとときを。</p>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="トップへ戻る"><span class="brand-mark">T</span><span class="brand-text">TATS​UDA <small>ALUMNI 2022</small></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+    <nav class="nav" id="primary-nav" aria-label="メインメニュー">
+      <a href="#about">ABOUT</a><a href="#event">EVENT</a><a href="#news">NEWS</a><a href="#faq">FAQ</a><a class="nav-cta" href="#contact">CONTACT <span aria-hidden="true">↗</span></a>
+    </nav>
   </header>
-  <main>
-    <h2>龍田中学校 同窓会公式サイト</h2>
-    <p>現在、開催に向けて準備中です。</p>
-    <p>詳細は近日公開予定！</p>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-light"></div><div class="hero-grid"></div>
+      <div class="hero-inner reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> TATS​UDA JUNIOR HIGH SCHOOL <span class="eyebrow-line"></span></div>
+        <p class="hero-year">CLASS OF 2022 <span>— REUNION —</span></p>
+        <h1 id="hero-title">あの日の続きが、<br /><em>ここから始まる。</em></h1>
+        <p class="hero-sub">あの教室、あの帰り道、あの笑い声。<br />それぞれの時間を歩んだ私たちが、また出会う場所。</p>
+        <a class="button button-gold" href="#event">同窓会について <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-bottom"><span>EST. 2022 · TATS​UDA JHS</span><a href="#about">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <section class="intro section" id="about">
+      <div class="container intro-layout">
+        <div class="section-side reveal"><span class="section-index">01 / ABOUT</span><span class="vertical-line"></span></div>
+        <div class="intro-main reveal"><p class="kicker">OUR STORY</p><h2 class="section-title">久しぶり、<br /><span>から始まる物語。</span></h2><p>中学校を卒業してから、それぞれの場所で過ごしてきた日々。</p><p>変わったことも、変わらないことも。懐かしい仲間と再会する、その瞬間を楽しみに。</p><p class="intro-sign">龍田中学校 2022年度卒業生 同窓会</p></div>
+        <div class="memory-card reveal"><div class="memory-card-inner"><span>MEMORIES</span><strong>あの頃の<br />私たちへ。</strong><span class="memory-asterisk" aria-hidden="true">✳</span><small>THE DAYS WE SHARED</small></div></div>
+      </div>
+    </section>
+    <section class="quote-band"><div class="container reveal"><span>THEN & NOW</span><p>離れていても、<br />同じ時間を過ごした仲間がいる。</p><span class="quote-rule"></span></div></section>
+    <section class="event section" id="event"><div class="container"><div class="section-heading reveal"><div><p class="kicker">THE REUNION</p><h2 class="section-title">開催概要<span class="dot">.</span></h2></div><span class="section-index">02 / EVENT</span></div>
+      <div class="event-panel reveal"><div class="event-label">EVENT INFORMATION <span class="status">COMING SOON</span></div><div class="event-grid"><div><small>DATE & TIME</small><strong>準備中</strong><p>開催日時は決まり次第お知らせします。</p></div><div><small>VENUE</small><strong>準備中</strong><p>会場情報は後日公開予定です。</p></div><div><small>REGISTRATION</small><strong>受付準備中</strong><p>出欠回答の開始までお待ちください。</p></div></div><div class="event-note">※ 掲載情報は準備状況に応じて更新します。</div></div>
+    </div></section>
+    <section class="news section" id="news"><div class="container"><div class="section-heading reveal"><div><p class="kicker">LATEST UPDATES</p><h2 class="section-title">お知らせ<span class="dot">.</span></h2></div><span class="section-index">03 / NEWS</span></div><div class="news-row reveal"><time datetime="2026-11">2026.11</time><span class="news-category">INFO</span><p>同窓会公式サイトを開設しました。</p><span aria-hidden="true">↗</span></div><p class="news-caption">最新の開催情報はこちらでお知らせします。</p></div></section>
+    <section class="faq section" id="faq"><div class="container"><div class="section-heading reveal"><div><p class="kicker">QUESTIONS & ANSWERS</p><h2 class="section-title">よくある質問<span class="dot">.</span></h2></div><span class="section-index">04 / FAQ</span></div><div class="faq-list reveal"><details><summary>開催日時や会場は決まっていますか？</summary><p>現在準備中です。決まり次第、この公式サイトでご案内します。</p></details><details><summary>参加申し込みはいつからできますか？</summary><p>受付開始時期が決まり次第、お知らせします。</p></details><details><summary>今後の情報はどこで確認できますか？</summary><p>このサイトの「お知らせ」をご確認ください。</p></details></div></div></section>
+    <section class="contact-section" id="contact"><div class="container contact-inner reveal"><p class="kicker">STAY CONNECTED</p><h2>また会える日を、<br /><em>楽しみに。</em></h2><p>同窓会の最新情報は、この公式サイトでお届けします。</p><a class="button button-outline" href="#top">ページの先頭へ <span aria-hidden="true">↑</span></a></div></section>
   </main>
+  <footer class="footer"><div class="container footer-inner"><div><strong>TATS​UDA ALUMNI</strong><span>CLASS OF 2022</span></div><p>© <span id="year">2026</span> Tatsuda JHS Alumni. All rights reserved.</p></div></footer>
 </body>
 </html>
